@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[<div class="featureFile">Feature File: src\com\bhanu\s3.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="feature">Feature: S1</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="scenario">Scenario Outline: Loading</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="scenario">Scenario: Loading</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result">Given  the iTunes file <filename> (passed : 0.34s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result">Then  there should be <albumcount> albums found (passed : 0.0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[src\com\bhanu\s3.feature passed with 0 failures, 0 skips, 2 passes]]>
+    </line>
+    <line>
+      <![CDATA[<div class="featureFile">Feature File: src\com\bhanu\s1.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="feature">Feature: S1</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="scenario">Scenario Outline: Loading</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="scenario">Scenario: Loading</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result">Given  the iTunes file <filename> (passed : 0.01s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result">Then  there should be <albumcount> albums found (passed : 0.0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[src\com\bhanu\s1.feature passed with 0 failures, 0 skips, 2 passes]]>
+    </line>
+    <line>
+      <![CDATA[<div class="featureFile">Feature File: src\com\bhanu\s2.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="feature">Feature: S2</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="scenario">Scenario Outline: Loading</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="scenario">Scenario: Loading</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result">Given  the iTunes file <filename> (passed : 0.01s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result">When  searching for the artist <artist> (passed : 0.0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[src\com\bhanu\s2.feature passed with 0 failures, 0 skips, 2 passes]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1437" started-at="2016-09-17T17:36:13Z" finished-at="2016-09-17T17:36:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1437" started-at="2016-09-17T17:36:13Z" finished-at="2016-09-17T17:36:15Z">
+      <class name="com.cucumber.CucumberTestImpl">
+        <test-method status="PASS" signature="cucumber()[pri:0, instance:com.cucumber.CucumberTestImpl@62ee68d8]" test-instance-name="src\com\bhanu\s3.feature" name="cucumber" duration-ms="1141" started-at="2016-09-17T23:06:13Z" finished-at="2016-09-17T23:06:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="featureFile">Feature File: src\com\bhanu\s3.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="feature">Feature: S1</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="scenario">Scenario Outline: Loading</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="scenario">Scenario: Loading</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="result">Given  the iTunes file <filename> (passed : 0.34s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="result">Then  there should be <albumcount> albums found (passed : 0.0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[src\com\bhanu\s3.feature passed with 0 failures, 0 skips, 2 passes]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cucumber -->
+        <test-method status="PASS" signature="cucumber()[pri:0, instance:com.cucumber.CucumberTestImpl@7f9a81e8]" test-instance-name="src\com\bhanu\s1.feature" name="cucumber" duration-ms="134" started-at="2016-09-17T23:06:14Z" finished-at="2016-09-17T23:06:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="featureFile">Feature File: src\com\bhanu\s1.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="feature">Feature: S1</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="scenario">Scenario Outline: Loading</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="scenario">Scenario: Loading</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="result">Given  the iTunes file <filename> (passed : 0.01s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="result">Then  there should be <albumcount> albums found (passed : 0.0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[src\com\bhanu\s1.feature passed with 0 failures, 0 skips, 2 passes]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cucumber -->
+        <test-method status="PASS" signature="cucumber()[pri:0, instance:com.cucumber.CucumberTestImpl@9629756]" test-instance-name="src\com\bhanu\s2.feature" name="cucumber" duration-ms="75" started-at="2016-09-17T23:06:15Z" finished-at="2016-09-17T23:06:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="featureFile">Feature File: src\com\bhanu\s2.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="feature">Feature: S2</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="scenario">Scenario Outline: Loading</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="scenario">Scenario: Loading</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="result">Given  the iTunes file <filename> (passed : 0.01s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="result">When  searching for the artist <artist> (passed : 0.0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[src\com\bhanu\s2.feature passed with 0 failures, 0 skips, 2 passes]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cucumber -->
+      </class> <!-- com.cucumber.CucumberTestImpl -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
